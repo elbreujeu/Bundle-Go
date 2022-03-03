@@ -1,11 +1,12 @@
-# Bundle Go - Workshop matin
-## Introduction au go
-Dans ce Workshop, nous vous introduirons au Go par une série d'exercices.
-### Installation
+
+# Workshop - Le langage go
+## Installation
 Windows/Mac : [ça se passe ici](https://go.dev/learn/)
 Ubuntu/autres distribs Debian : `sudo apt install golang-go`
 Fedora : `sudo dnf install go`
 Autres distributions Linux : `man google`
+
+## Partie I - Découverte du langage
 
 ### Exercice 1 - Hello World
 Créez un fichier `hello_world.go`, contenant un code en Go qui une fois lancé écrit `Hello, world !` sur la sortie standard.
@@ -23,7 +24,7 @@ Créez un programme "my_print_comb" qui imprime, dans l'ordre croissant, tous le
 ![output attendu](https://i.imgur.com/ZU62ZBJ.png)
 
 ### Exercice 5 - Goroutine
-Vous êtes arrivés au dernier exercice de ce Workshop ! Le but de celui-ci sera de découvrir les goroutines, élément important du Go permettant de gérer le multi-threading.
+Le but de cet exercice sera de découvrir les goroutines, élément important du Go permettant de gérer le multi-threading.
 Créez un fichier `goroutines.go` qui contiendra une fonction print_numbers, qui prendra en paramètre un int et imprimera tout les nombres de 0 au nombre donné, avec un retour à la ligne entre chaque.
 Lancez la fonction depuis le main dans une goroutine.
 `go print_numbers`
@@ -34,3 +35,19 @@ En fait, la fonction main se termine sans attendre que la goroutine soit finie. 
 ### Exercice 5++ - Goroutine v2
 Maintenant que vous savez lancer une goroutine, pourquoi ne pas en lancer plusieurs en même temps ? Reprenez l'exercice au-dessus et lancez en 2 à la fois.
 Si vous passez de grands nombres, vous pourrez observer que le print ne se synchronise pas, car les deux fonctions s'exécutent simultanément !
+
+## Partie II - Mise en pratique
+### Exercice 1 - Convertisseur d'argent
+Réalisez un programme qui prend en argument une somme d'argent et une monnaie, et qui donne la valeur de la somme en la monnaie choisie.
+![Valeur attendue](https://imgur.com/kHs2B7J.png)
+Monnaies à implémenter : Dollar, Yen, Yuan, Euro, Roupie Indienne
+
+### Exercice 2 - my_ls
+Réaliser un programme qui liste les fichiers contenus dans votre dossier. Vous n'avez pas besoin d'implémenter d'options.
+![Output attendu](https://imgur.com/ooBahAJ.png)
+
+### Exercice 3 - Requêtes internet
+#### Etape 1
+Réalisez un programme qui va prendre tous les profils qui ont commenté sur une publication Reddit.
+#### Etape 2
+A l'aide des goroutines, faites en sorte que votre programme passe dans chaque profil et affiche sa description ainsi que ses 5 derniers posts.
