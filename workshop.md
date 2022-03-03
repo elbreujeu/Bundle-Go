@@ -39,7 +39,9 @@ Si vous passez de grands nombres, vous pourrez observer que le print ne se synch
 ## Partie II - Mise en pratique
 ### Exercice 1 - Convertisseur d'argent
 Réalisez un programme qui prend en argument une somme d'argent et une monnaie, et qui donne la valeur de la somme en la monnaie choisie.
+
 ![Valeur attendue](https://imgur.com/kHs2B7J.png)
+
 Monnaies à implémenter : Dollar, Yen, Yuan, Euro, Roupie Indienne
 
 ### Exercice 2 - my_ls
