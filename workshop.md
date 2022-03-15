@@ -49,6 +49,7 @@ Réaliser un programme qui liste les fichiers contenus dans votre dossier. Vous 
 ![Output attendu](https://imgur.com/ooBahAJ.png)
 
 ### Exercice 3 - Requêtes internet
+⚠️ `api.reddit.com`
 #### Etape 1
 Réalisez un programme qui va prendre tous les profils qui ont commenté sur une publication Reddit.
 #### Etape 2
