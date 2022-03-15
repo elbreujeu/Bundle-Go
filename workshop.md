@@ -39,6 +39,7 @@ Si vous passez de grands nombres, vous pourrez observer que le print ne se synch
 ## Partie II - Mise en pratique
 ### Exercice 1 - Convertisseur d'argent
 Réalisez un programme qui prend en argument une somme d'argent et une monnaie, et qui donne la valeur de la somme en la monnaie choisie.
+⚠️ La monnaie de base sera l'Euro.
 
 ![Valeur attendue](https://imgur.com/kHs2B7J.png)
 
