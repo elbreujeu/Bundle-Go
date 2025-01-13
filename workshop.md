@@ -102,7 +102,7 @@ Créez un programme qui récupère des statistiques sur une publication Reddit. 
 
 ### Étape 4
 
-⚠️ Si vous en êtes arrivés à cet exercice, premièrement, félicitations. Deuxièmement, venez me voir pour obtenir une clé OpenAI quand vous aurez réussi à configurer les communications avec l'API.
+⚠️ Si vous en êtes arrivés à cet exercice, premièrement, félicitations. Deuxièmement, venez me voir pour obtenir une clé API OpenAI si besoin une fois que vous aurez rédigé une POC de communication avec cette API.
 
 Réalisez un programme qui récupère tous les posts d'un thread Reddit, puis envoie une requête à l'API OpenAI pour :
 
