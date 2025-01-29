@@ -79,6 +79,7 @@ Réaliser un programme qui liste les fichiers contenus dans votre dossier. Vous 
 ### Exercice 3 - Requêtes internet
 
 ⚠️ `api.reddit.com`
+⚠️ `https://mholt.github.io/json-to-go/`
 
 #### Etape 1
 
