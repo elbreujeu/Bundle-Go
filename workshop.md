@@ -1,4 +1,4 @@
-# Workshop - Le langage go
+# Workshop - Le langage Go
 
 ## Installation
 
